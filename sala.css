@@ -1,0 +1,47 @@
+html, body {
+  background: #2c3e50;
+}
+
+h1{
+  margin-top: -45;
+  margin-left:100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.cuadrado{
+  position: relative;
+  margin-left: 40px;
+  margin-top:95px;
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+  height: 750px;
+  border-radius: 10px;
+  background-color: rgba(38, 28, 92, 0.5);
+  overflow: hidden;
+}
+
+
+.player{
+  margin-left: 25px;
+  margin-top:12px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius:  10px;
+  border-bottom-right-radius: 10px;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  width: 300px;
+  height:70px;
+  padding: 0px;
+  clear:both;
+}
+
+.png{
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 60px;
+  height:60px;
+  align: left;
+}
