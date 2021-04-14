@@ -38,6 +38,21 @@ h1{
   clear:both;
 }
 
+.player2{
+  margin-left: 25px;
+  margin-top:12px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius:  10px;
+  border-bottom-right-radius: 10px;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  width: 330px;
+  height:70px;
+  padding: 0px;
+  clear:both;
+}
+
 .png{
   margin-left: 10px;
   margin-top: 5px;

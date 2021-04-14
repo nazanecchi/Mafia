@@ -118,3 +118,52 @@ footer{
 .second:hover {
   background-position: 100px;
 }
+
+.todo{
+  width:100%;
+}
+
+.user{
+  width: 700px;
+  height: 50px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+
+.inp{
+  width: 100%;
+  height: 100%;
+  margin-left: 10px
+  font-family: 'Arial';
+  font-size: 40px;
+  height: center;
+  background-color: rgba(255,255,255,0.3);
+  border: none;
+  border-radius: 10px;
+  /*padding: 1.2em 2.8em;*/
+}
+
+.inp:focus{
+  outline: none;
+}
+
+.inp:focus + .texto{
+  margin-top:-40;
+  color: #FFFFFF;
+}
+.texto{
+  border: none;
+  position:absolute;
+  font-family: 'Bold';
+  transition: all 0.2s;
+  font-size: 30px;
+  padding-left: 13px;
+  margin-left: -650px;
+  margin-top: 8px;
+  color: #333333;
+}
+
+.fijar{
+  margin-top: -50px;
+}
