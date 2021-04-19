@@ -153,7 +153,6 @@ footer{
   color: #FFFFFF;
 }
 .texto{
-  border: none;
   position:absolute;
   font-family: 'Bold';
   transition: all 0.2s;
@@ -165,5 +164,11 @@ footer{
 }
 
 .fijar{
-  margin-top: -50px;
+  margin-top: -40px;
+  color: #FFFFFF;
 }
+
+.foto{
+  width : 70;
+  height : 70;
+} 

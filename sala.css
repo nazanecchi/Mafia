@@ -22,20 +22,30 @@ h1{
   overflow: hidden;
 }
 
-
 .player{
   margin-left: 25px;
-  margin-top:12px;
+  margin-top:10px;
+  margin-bottom:2px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   border-top-right-radius:  10px;
   border-bottom-right-radius: 10px;
   border-color: #000000;
   background-color: #FFFFFF;
+  cursor: pointer;
   width: 300px;
   height:70px;
   padding: 0px;
   clear:both;
+}
+
+.player:hover{
+  margin-left: 19px;
+  margin-top:8px;
+  margin-bottom: 0;
+  width: 312px;
+  height:74px;
+  background-color: #EEEEEE;
 }
 
 .player2{
