@@ -10,3 +10,12 @@ for (var i=0;i<inputs.length; i++) {
     }
   });
 }
+
+function lleno(){
+    if((localStorage.getItem("nombreUsuario9")) != null){
+      alert("esta lleno idiota");
+    }
+}
+function logout(){
+  localStorage.clear();
+}
